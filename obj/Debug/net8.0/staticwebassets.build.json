@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "JDfLrnDhlNpQPgrtAezZf+73HpnOr26U3Q0DA5PZAyM=",
+  "Source": "EventManagementWithAuthentication",
+  "BasePath": "_content/EventManagementWithAuthentication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
