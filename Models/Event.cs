@@ -8,6 +8,7 @@
         public string Location { get; set; }
         public DateOnly Date { get; set; }
         public int NoOfTickets { get; set; }
+        public double EventPrice { get; set; }
         // Foreign Key
         public int OrganizerId { get; set; }
 

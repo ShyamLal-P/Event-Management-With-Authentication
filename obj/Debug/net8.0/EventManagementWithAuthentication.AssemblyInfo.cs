@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventManagementWithAuthentication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f01b0b107346c2010aeb74ede9fe52e5b5365333")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+731d1b178800e6de9baf6cf7a86acedbe5f25288")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventManagementWithAuthentication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventManagementWithAuthentication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
