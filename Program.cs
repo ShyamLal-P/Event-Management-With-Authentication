@@ -22,6 +22,7 @@ builder.Services.AddScoped<ITicketRepository, TicketRepository>();
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IFeedbackRepository, FeedbackRepository>();
 builder.Services.AddScoped<IBookingService, BookingService>();
+builder.Services.AddScoped<ICancellationService, CancellationService>();
 
 // Add JWT Authentication
 builder.Services.AddAuthentication(options =>
