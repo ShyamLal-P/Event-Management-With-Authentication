@@ -612,6 +612,29 @@
         }
       }
     },
+    "/api/UpcomingEvents/{userId}": {
+      "get": {
+        "tags": [
+          "UpcomingEvents"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Users": {
       "get": {
         "tags": [
@@ -775,6 +798,10 @@
             "type": "string",
             "format": "date"
           },
+          "time": {
+            "type": "string",
+            "format": "time"
+          },
           "noOfTickets": {
             "type": "integer",
             "format": "int32"
@@ -885,6 +912,13 @@
           "event": {
             "$ref": "#/components/schemas/Event"
           },
+          "ticketId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ticket": {
+            "$ref": "#/components/schemas/Ticket"
+          },
           "message": {
             "type": "string",
             "nullable": true
@@ -923,6 +957,13 @@
           },
           "status": {
             "type": "string",
+            "nullable": true
+          },
+          "notifications": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Notification"
+            },
             "nullable": true
           }
         },

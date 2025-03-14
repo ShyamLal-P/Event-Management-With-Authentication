@@ -1,6 +1,6 @@
 ﻿using EventManagementWithAuthentication.Data;
+using EventManagementWithAuthentication.Interfaces;
 using EventManagementWithAuthentication.Models;
-using EventManagementWithAuthentication.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +20,12 @@ namespace EventManagementWithAuthentication.Repositories
         public async Task<IEnumerable<Event>> GetAllEventsAsync()
         {
             return await _context.Events.ToListAsync();
+        }
+        public async Task<IEnumerable<Event>> GetEventsByUserIdAsync(int userId)
+        {
+            return await _context.Events
+                .Where(e => e.OrganizerId == userId)
+                .ToListAsync();
         }
 
         public async Task<Event> GetEventByIdAsync(int id)

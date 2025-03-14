@@ -43,13 +43,19 @@ namespace EventManagementWithAuthentication.Data
                 .HasForeignKey(n => n.EventId)
                 .OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<Feedback>() // Add this configuration
+            modelBuilder.Entity<Notification>()
+                .HasOne(n => n.Ticket)
+                .WithMany(t => t.Notifications)
+                .HasForeignKey(n => n.TicketId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            modelBuilder.Entity<Feedback>()
                 .HasOne(f => f.User)
                 .WithMany(u => u.Feedbacks)
                 .HasForeignKey(f => f.UserId)
                 .OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<Feedback>() // Add this configuration
+            modelBuilder.Entity<Feedback>()
                 .HasOne(f => f.Event)
                 .WithMany(e => e.Feedbacks)
                 .HasForeignKey(f => f.EventId)

@@ -1,10 +1,11 @@
 ﻿using EventManagementWithAuthentication.Models;
 
-namespace EventManagementWithAuthentication.Repositories.Interfaces
+namespace EventManagementWithAuthentication.Interfaces
 {
     public interface IEventRepository
     {
         Task<IEnumerable<Event>> GetAllEventsAsync();
+        Task<IEnumerable<Event>> GetEventsByUserIdAsync(int userId);
         Task<Event> GetEventByIdAsync(int id);
         Task AddEventAsync(Event evententity);
         Task UpdateEventAsync(Event eventEntity);

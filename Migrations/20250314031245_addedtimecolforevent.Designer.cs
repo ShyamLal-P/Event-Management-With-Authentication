@@ -4,6 +4,7 @@ using EventManagementWithAuthentication.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EventManagementWithAuthentication.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250314031245_addedtimecolforevent")]
+    partial class addedtimecolforevent
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -115,17 +118,12 @@ namespace EventManagementWithAuthentication.Migrations
                     b.Property<TimeOnly>("SentTime")
                         .HasColumnType("time");
 
-                    b.Property<int>("TicketId")
-                        .HasColumnType("int");
-
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("EventId");
-
-                    b.HasIndex("TicketId");
 
                     b.HasIndex("UserId");
 
@@ -232,12 +230,6 @@ namespace EventManagementWithAuthentication.Migrations
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("EventManagementWithAuthentication.Models.Ticket", "Ticket")
-                        .WithMany("Notifications")
-                        .HasForeignKey("TicketId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
                     b.HasOne("EventManagementWithAuthentication.Models.User", "User")
                         .WithMany("Notifications")
                         .HasForeignKey("UserId")
@@ -245,8 +237,6 @@ namespace EventManagementWithAuthentication.Migrations
                         .IsRequired();
 
                     b.Navigation("Event");
-
-                    b.Navigation("Ticket");
 
                     b.Navigation("User");
                 });
@@ -277,11 +267,6 @@ namespace EventManagementWithAuthentication.Migrations
                     b.Navigation("Notifications");
 
                     b.Navigation("Tickets");
-                });
-
-            modelBuilder.Entity("EventManagementWithAuthentication.Models.Ticket", b =>
-                {
-                    b.Navigation("Notifications");
                 });
 
             modelBuilder.Entity("EventManagementWithAuthentication.Models.User", b =>

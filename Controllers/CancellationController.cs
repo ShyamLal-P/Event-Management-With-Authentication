@@ -1,4 +1,4 @@
-﻿using EventManagementWithAuthentication.Repositories.Interfaces;
+﻿using EventManagementWithAuthentication.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EventManagementWithAuthentication.Controllers

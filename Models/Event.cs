@@ -7,6 +7,7 @@
         public string Category { get; set; }
         public string Location { get; set; }
         public DateOnly Date { get; set; }
+        public TimeOnly Time { get; set; }
         public int NoOfTickets { get; set; }
         public double EventPrice { get; set; }
         // Foreign Key

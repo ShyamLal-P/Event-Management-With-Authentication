@@ -1,4 +1,4 @@
-﻿namespace EventManagementWithAuthentication.Repositories.Interfaces
+﻿namespace EventManagementWithAuthentication.Interfaces
 {
     public interface ICancellationService
     {

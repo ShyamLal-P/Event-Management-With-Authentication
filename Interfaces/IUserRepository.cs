@@ -1,6 +1,6 @@
 ﻿using EventManagementWithAuthentication.Models;
 
-namespace EventManagementWithAuthentication.Repositories.Interfaces
+namespace EventManagementWithAuthentication.Interfaces
 {
     public interface IUserRepository
     {

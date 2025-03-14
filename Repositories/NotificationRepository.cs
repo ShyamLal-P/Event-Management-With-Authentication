@@ -1,6 +1,7 @@
 ﻿using EventManagementWithAuthentication.Data;
+using EventManagementWithAuthentication.Interfaces;
 using EventManagementWithAuthentication.Models;
-using EventManagementWithAuthentication.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace EventManagementWithAuthentication.Repositories
 {
@@ -15,7 +16,7 @@ namespace EventManagementWithAuthentication.Repositories
 
         public async Task<IEnumerable<Notification>> GetAllNotificationsAsync()
         {
-            return _context.Notifications.ToList();
+            return await _context.Notifications.ToListAsync();
         }
 
         public async Task<Notification> GetNotificationByIdAsync(int id)
@@ -25,7 +26,7 @@ namespace EventManagementWithAuthentication.Repositories
 
         public async Task AddNotificationAsync(Notification notification)
         {
-            _context.Notifications.Add(notification);
+            await _context.Notifications.AddAsync(notification);
             await _context.SaveChangesAsync();
         }
 
@@ -44,5 +45,14 @@ namespace EventManagementWithAuthentication.Repositories
                 await _context.SaveChangesAsync();
             }
         }
-    }
+
+        public async Task<List<Notification>> GetNotificationsByUserIdAsync(int userId)
+        {
+            return await _context.Notifications
+                .Where(n => n.UserId == userId)
+                .Include(n => n.Event)
+                .Include(n => n.Ticket)
+                .ToListAsync();
+        }
+    } 
 }

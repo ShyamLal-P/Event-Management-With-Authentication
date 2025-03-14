@@ -1,10 +1,10 @@
 ﻿using EventManagementWithAuthentication.Models;
-using EventManagementWithAuthentication.Repositories.Interfaces;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using EventManagementWithAuthentication.Interfaces;
 
 namespace EventManagementWithAuthentication.Controllers
 {
@@ -47,10 +47,11 @@ namespace EventManagementWithAuthentication.Controllers
 
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(ClaimTypes.Role, user.Role)
-            };
+        new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()), // Ensure user ID is included
+        new Claim(ClaimTypes.Role, user.Role)
+    };
 
             var token = new JwtSecurityToken(
                 issuer: _configuration["JWT:Issuer"],

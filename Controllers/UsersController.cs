@@ -1,5 +1,5 @@
-﻿using EventManagementWithAuthentication.Models;
-using EventManagementWithAuthentication.Repositories.Interfaces;
+﻿using EventManagementWithAuthentication.Interfaces;
+using EventManagementWithAuthentication.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

@@ -11,5 +11,7 @@
         public virtual User? User { get; set; }
         public DateOnly BookingDate { get; set; }
         public string Status { get; set; }
+        public virtual ICollection<Notification>? Notifications { get; set; }
+
     }
 }

@@ -1,6 +1,6 @@
 ﻿using EventManagementWithAuthentication.Data;
+using EventManagementWithAuthentication.Interfaces;
 using EventManagementWithAuthentication.Models;
-using EventManagementWithAuthentication.Repositories.Interfaces;
 
 namespace EventManagementWithAuthentication.Repositories
 {

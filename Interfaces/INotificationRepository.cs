@@ -1,6 +1,6 @@
 ﻿using EventManagementWithAuthentication.Models;
 
-namespace EventManagementWithAuthentication.Repositories.Interfaces
+namespace EventManagementWithAuthentication.Interfaces
 {
     public interface INotificationRepository
     {
@@ -9,5 +9,6 @@ namespace EventManagementWithAuthentication.Repositories.Interfaces
         Task AddNotificationAsync(Notification notification);
         Task UpdateNotificationAsync(Notification notification);
         Task DeleteNotificationAsync(int id);
+        Task<List<Notification>> GetNotificationsByUserIdAsync(int userId); 
     }
 }

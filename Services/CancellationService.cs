@@ -1,4 +1,5 @@
-﻿using EventManagementWithAuthentication.Repositories.Interfaces;
+﻿using EventManagementWithAuthentication.Interfaces;
+using EventManagementWithAuthentication.Models;
 
 namespace EventManagementWithAuthentication.Services
 {
@@ -7,12 +8,14 @@ namespace EventManagementWithAuthentication.Services
         private readonly IEventRepository _eventRepository;
         private readonly ITicketRepository _ticketRepository;
         private readonly IUserRepository _userRepository;
+        private readonly INotificationRepository _notificationRepository;
 
-        public CancellationService(IEventRepository eventRepository, ITicketRepository ticketRepository, IUserRepository userRepository)
+        public CancellationService(IEventRepository eventRepository, ITicketRepository ticketRepository, IUserRepository userRepository, INotificationRepository notificationRepository)
         {
             _eventRepository = eventRepository;
             _ticketRepository = ticketRepository;
             _userRepository = userRepository;
+            _notificationRepository = notificationRepository;
         }
 
         public async Task CancelTicketsAsync(int userId, int eventId, int numberOfTickets)
@@ -35,26 +38,30 @@ namespace EventManagementWithAuthentication.Services
             {
                 ticket.Status = "Cancelled";
                 await _ticketRepository.UpdateTicketAsync(ticket);
+
+                // Create a cancellation notification
+                var notification = new Notification
+                {
+                    UserId = userId,
+                    EventId = eventId,
+                    TicketId = ticket.Id,
+                    Message = "Ticket cancelled.",
+                    SentTime = TimeOnly.FromDateTime(DateTime.Now)
+                };
+                await _notificationRepository.AddNotificationAsync(notification);
             }
 
             eventDetails.NoOfTickets += numberOfTickets;
             await _eventRepository.UpdateEventAsync(eventDetails);
 
-            // Additional business logic: Process refund and send notification
+            // Additional business logic: Process refund
             await ProcessRefundAsync(userId, numberOfTickets * eventDetails.EventPrice);
-            await SendCancellationNotificationAsync(userId, eventId, numberOfTickets);
         }
 
         private async Task ProcessRefundAsync(int userId, double amount)
         {
             // Implement refund processing logic here
             // For example, update user's account balance or initiate a refund transaction
-        }
-
-        private async Task SendCancellationNotificationAsync(int userId, int eventId, int numberOfTickets)
-        {
-            // Implement notification sending logic here
-            // For example, send an email or push notification to the user
         }
     }
 }

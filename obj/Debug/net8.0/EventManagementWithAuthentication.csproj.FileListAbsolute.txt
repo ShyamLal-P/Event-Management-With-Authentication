@@ -132,7 +132,6 @@ C:\Curriculum\EventManagementWithAuthentication\obj\Debug\net8.0\staticwebassets
 C:\Curriculum\EventManagementWithAuthentication\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EventManagementWithAuthentication.props
 C:\Curriculum\EventManagementWithAuthentication\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EventManagementWithAuthentication.props
 C:\Curriculum\EventManagementWithAuthentication\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Curriculum\EventManagementWithAuthentication\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Curriculum\EventManagementWithAuthentication\obj\Debug\net8.0\EventMan.E9EB8DF1.Up2Date
 C:\Curriculum\EventManagementWithAuthentication\obj\Debug\net8.0\EventManagementWithAuthentication.dll
 C:\Curriculum\EventManagementWithAuthentication\obj\Debug\net8.0\refint\EventManagementWithAuthentication.dll
@@ -140,3 +139,4 @@ C:\Curriculum\EventManagementWithAuthentication\obj\Debug\net8.0\EventManagement
 C:\Curriculum\EventManagementWithAuthentication\obj\Debug\net8.0\EventManagementWithAuthentication.genruntimeconfig.cache
 C:\Curriculum\EventManagementWithAuthentication\obj\Debug\net8.0\ref\EventManagementWithAuthentication.dll
 C:\Curriculum\EventManagementWithAuthentication\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Curriculum\EventManagementWithAuthentication\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
