@@ -26,6 +26,14 @@ namespace EventManagementWithAuthentication.Services
                 throw new Exception("Event not found.");
             }
 
+            DateTime eventDateTime = new DateTime(eventDetails.Date.Year, eventDetails.Date.Month, eventDetails.Date.Day, eventDetails.Time.Hour, eventDetails.Time.Minute, eventDetails.Time.Second);
+            DateTime currentDateTime = DateTime.Now;
+
+            if ((eventDateTime - currentDateTime).TotalHours <= 6)
+            {
+                throw new Exception("Tickets can only be canceled more than 6 hours before the event starts.");
+            }
+
             var tickets = await _ticketRepository.GetAllTicketsAsync();
             var userTickets = tickets.Where(t => t.EventId == eventId && t.UserId == userId && t.Status == "Booked").Take(numberOfTickets).ToList();
 

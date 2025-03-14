@@ -2,6 +2,7 @@
 {
     public interface IBookingService
     {
-        Task<double> BookTicketsAsync(int userId, int eventId, int numberOfTickets);
+        Task<string> BookTicketsAsync(int userId, int eventId, int numberOfTickets);
+
     }
 }

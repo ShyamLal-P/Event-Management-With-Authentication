@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "C:\\Curriculum\\EventManagementWithAuthentication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\services\\cancellationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:services\\cancellationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -13,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,30 +87,6 @@
       "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\services\\cancellationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:services\\cancellationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,24 +103,8 @@
       "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:controllers\\cancellationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\interfaces\\icancellationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:interfaces\\icancellationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\migrations\\20250313092000_addedpriceforeventtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,16 +135,8 @@
       "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5445DF98-40DB-4354-BB91-9CB2A614E65A}|EventManagementWithAuthentication.csproj|c:\\curriculum\\eventmanagementwithauthentication\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -174,72 +174,163 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NotificationRepository.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\NotificationRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\NotificationRepository.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\NotificationRepository.cs",
-              "RelativeToolTip": "Repositories\\NotificationRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAcwDgAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Models\\LoginDto.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\LoginDto.cs",
+              "RelativeToolTip": "Models\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:02:17.435Z",
+              "WhenOpened": "2025-03-11T05:03:13.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NotificationService.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Services\\NotificationService.cs",
-              "RelativeDocumentMoniker": "Services\\NotificationService.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Services\\NotificationService.cs",
-              "RelativeToolTip": "Services\\NotificationService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Models\\Notification.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Notification.cs",
+              "RelativeToolTip": "Models\\Notification.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T05:21:42.325Z",
+              "WhenOpened": "2025-03-14T04:39:52.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpcomingEventsController.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\UpcomingEventsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UpcomingEventsController.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\UpcomingEventsController.cs",
-              "RelativeToolTip": "Controllers\\UpcomingEventsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "Models\\Ticket.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Ticket.cs",
+              "RelativeToolTip": "Models\\Ticket.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T05:09:20.552Z",
+              "WhenOpened": "2025-03-13T09:25:21.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Roles.cs",
+              "RelativeDocumentMoniker": "Models\\Roles.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Roles.cs",
+              "RelativeToolTip": "Models\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T04:19:42.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA2wA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T03:55:13.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T03:57:33.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CancellationService.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Services\\CancellationService.cs",
+              "RelativeDocumentMoniker": "Services\\CancellationService.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Services\\CancellationService.cs",
+              "RelativeToolTip": "Services\\CancellationService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwEkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T09:54:10.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Models\\Event.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Event.cs",
+              "RelativeToolTip": "Models\\Event.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T03:57:01.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T03:41:21.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TicketRepository.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\TicketRepository.cs",
+              "RelativeToolTip": "Repositories\\TicketRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA5wCIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T04:02:44.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-11T04:10:39.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\IBookingService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IBookingService.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\IBookingService.cs",
+              "RelativeToolTip": "Interfaces\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T09:35:37.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "INotificationRepository.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\INotificationRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\INotificationRepository.cs",
@@ -247,60 +338,19 @@
               "RelativeToolTip": "Interfaces\\INotificationRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:00:03.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:00:03.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EventRepository.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\EventRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\EventRepository.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\EventRepository.cs",
-              "RelativeToolTip": "Repositories\\EventRepository.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAuwEAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "NotificationRepository.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\NotificationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\NotificationRepository.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\NotificationRepository.cs",
+              "RelativeToolTip": "Repositories\\NotificationRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwDgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:01:14.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IEventRepository.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\IEventRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IEventRepository.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\IEventRepository.cs",
-              "RelativeToolTip": "Interfaces\\IEventRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAcAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T03:59:15.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "INotificationService.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\INotificationService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\INotificationService.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\INotificationService.cs",
-              "RelativeToolTip": "Interfaces\\INotificationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T05:22:43.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CancellationService.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Services\\CancellationService.cs",
-              "RelativeDocumentMoniker": "Services\\CancellationService.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Services\\CancellationService.cs",
-              "RelativeToolTip": "Services\\CancellationService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAiwEEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T09:54:10.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:02:17.435Z"
             },
             {
               "$type": "Document",
@@ -310,66 +360,87 @@
               "RelativeDocumentMoniker": "Services\\BookingService.cs",
               "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Services\\BookingService.cs",
               "RelativeToolTip": "Services\\BookingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAqwGoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T09:36:32.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Notification.cs",
-              "RelativeDocumentMoniker": "Models\\Notification.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Notification.cs",
-              "RelativeToolTip": "Models\\Notification.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA5wA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T04:39:52.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAiwDkAAAArAAAAAAAAAA==",
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T03:57:33.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "Models\\Ticket.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Ticket.cs",
-              "RelativeToolTip": "Models\\Ticket.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T09:25:21.72Z",
+              "WhenOpened": "2025-03-13T09:43:41.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "Models\\Event.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Event.cs",
-              "RelativeToolTip": "Models\\Event.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA5wBIAAAAAAAAAAAAAAA==",
+              "Title": "UpcomingEventsController.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\UpcomingEventsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UpcomingEventsController.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\UpcomingEventsController.cs",
+              "RelativeToolTip": "Controllers\\UpcomingEventsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T03:57:01.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T05:09:20.552Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\NotificationService.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Services\\NotificationService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T05:21:42.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "Repositories\\EventRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAuwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T04:01:14.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IEventRepository.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\IEventRepository.cs",
+              "RelativeToolTip": "Interfaces\\IEventRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T03:59:15.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\INotificationService.cs",
+              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\INotificationService.cs",
+              "RelativeToolTip": "Interfaces\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T05:22:43.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -377,25 +448,11 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwEEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:57:53.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:57:53.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "Controllers\\BookingController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T09:43:41.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
@@ -403,12 +460,11 @@
               "RelativeToolTip": "Repositories\\UserRepository.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAiwBQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:03:27.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:03:27.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "NotificationsController.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\NotificationsController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotificationsController.cs",
@@ -416,38 +472,11 @@
               "RelativeToolTip": "Controllers\\NotificationsController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAswDsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:05:53.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:05:53.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IBookingService.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\IBookingService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IBookingService.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\IBookingService.cs",
-              "RelativeToolTip": "Interfaces\\IBookingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T09:35:37.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TicketRepository.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\TicketRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\TicketRepository.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Repositories\\TicketRepository.cs",
-              "RelativeToolTip": "Repositories\\TicketRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:02:44.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "CancellationController.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\CancellationController.cs",
               "RelativeDocumentMoniker": "Controllers\\CancellationController.cs",
@@ -455,12 +484,11 @@
               "RelativeToolTip": "Controllers\\CancellationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T09:50:52.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T09:50:52.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "ICancellationService.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\ICancellationService.cs",
               "RelativeDocumentMoniker": "Interfaces\\ICancellationService.cs",
@@ -468,12 +496,11 @@
               "RelativeToolTip": "Interfaces\\ICancellationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T09:53:45.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T09:53:45.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "20250313092000_addedpriceforeventtable.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Migrations\\20250313092000_addedpriceforeventtable.cs",
               "RelativeDocumentMoniker": "Migrations\\20250313092000_addedpriceforeventtable.cs",
@@ -485,19 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA4wA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T03:55:13.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "EventsController.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
@@ -505,12 +520,11 @@
               "RelativeToolTip": "Controllers\\EventsController.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAkwCYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:04:41.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:04:41.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
@@ -518,12 +532,11 @@
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwEkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:06:43.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:06:43.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "EventManagementWithAuthentication.csproj",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\EventManagementWithAuthentication.csproj",
               "RelativeDocumentMoniker": "EventManagementWithAuthentication.csproj",
@@ -535,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "FeedbacksController.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Controllers\\FeedbacksController.cs",
               "RelativeDocumentMoniker": "Controllers\\FeedbacksController.cs",
@@ -543,12 +556,11 @@
               "RelativeToolTip": "Controllers\\FeedbacksController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAkwDwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:05:26.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:05:26.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ITicketRepository.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\ITicketRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\ITicketRepository.cs",
@@ -556,12 +568,11 @@
               "RelativeToolTip": "Interfaces\\ITicketRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:00:24.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:00:24.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -573,31 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Roles.cs",
-              "RelativeDocumentMoniker": "Models\\Roles.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\Roles.cs",
-              "RelativeToolTip": "Models\\Roles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:19:42.477Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Models\\LoginDto.cs",
-              "ToolTip": "C:\\Curriculum\\EventManagementWithAuthentication\\Models\\LoginDto.cs",
-              "RelativeToolTip": "Models\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T05:03:13.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Curriculum\\EventManagementWithAuthentication\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
@@ -605,8 +592,7 @@
               "RelativeToolTip": "Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAqwAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:00:42.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:00:42.219Z"
             },
             {
               "$type": "Document",
@@ -630,8 +616,7 @@
               "RelativeToolTip": "Controllers\\TicketsController.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:06:17.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:06:17.023Z"
             },
             {
               "$type": "Document",
@@ -643,8 +628,7 @@
               "RelativeToolTip": "Repositories\\FeedbackRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:01:41.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T04:01:41.327Z"
             },
             {
               "$type": "Document",
@@ -656,8 +640,7 @@
               "RelativeToolTip": "Interfaces\\IFeedbackRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T03:59:42.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T03:59:42.179Z"
             }
           ]
         }

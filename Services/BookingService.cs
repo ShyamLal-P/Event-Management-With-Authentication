@@ -10,6 +10,9 @@ namespace EventManagementWithAuthentication.Services
         private readonly IUserRepository _userRepository;
         private readonly INotificationRepository _notificationRepository;
 
+        private const int MaxTicketsPerBooking = 6;
+        private const double PriceIncreaseThreshold = 0.1; // 10%
+
         public BookingService(IEventRepository eventRepository, ITicketRepository ticketRepository, IUserRepository userRepository, INotificationRepository notificationRepository)
         {
             _eventRepository = eventRepository;
@@ -18,8 +21,13 @@ namespace EventManagementWithAuthentication.Services
             _notificationRepository = notificationRepository;
         }
 
-        public async Task<double> BookTicketsAsync(int userId, int eventId, int numberOfTickets)
+        public async Task<string> BookTicketsAsync(int userId, int eventId, int numberOfTickets)
         {
+            if (numberOfTickets > MaxTicketsPerBooking)
+            {
+                throw new Exception($"You can only book a maximum of {MaxTicketsPerBooking} tickets at once.");
+            }
+
             var eventDetails = await _eventRepository.GetEventByIdAsync(eventId);
             if (eventDetails == null)
             {
@@ -28,10 +36,17 @@ namespace EventManagementWithAuthentication.Services
 
             if (eventDetails.NoOfTickets < numberOfTickets)
             {
-                throw new Exception("Not enough tickets available.");
+                throw new Exception($"Not enough tickets available. Only {eventDetails.NoOfTickets} tickets are left.");
             }
 
-            var totalCost = numberOfTickets * eventDetails.EventPrice;
+            double ticketPrice = eventDetails.EventPrice;
+            int totalTickets = eventDetails.NoOfTickets + numberOfTickets; // Calculate total tickets initially available
+            if (eventDetails.NoOfTickets <= totalTickets * PriceIncreaseThreshold)
+            {
+                ticketPrice *= 1.1; // Increase price by 10%
+            }
+
+            var totalCost = numberOfTickets * ticketPrice;
 
             for (int i = 0; i < numberOfTickets; i++)
             {
@@ -60,7 +75,10 @@ namespace EventManagementWithAuthentication.Services
             eventDetails.NoOfTickets -= numberOfTickets;
             await _eventRepository.UpdateEventAsync(eventDetails);
 
-            return totalCost;
+            // Generate bill
+            string bill = GenerateBill(numberOfTickets, ticketPrice, totalCost);
+
+            return bill;
         }
 
         private string CalculateTimeLeft(Event eventDetails)
@@ -75,6 +93,14 @@ namespace EventManagementWithAuthentication.Services
 
             TimeSpan timeLeft = eventDateTime - currentDateTime;
             return $"{timeLeft.Days} days, {timeLeft.Hours} hours, {timeLeft.Minutes} minutes.";
+        }
+
+        private string GenerateBill(int numberOfTickets, double ticketPrice, double totalCost)
+        {
+            return $"Total tickets: {numberOfTickets}\n" +
+                   $"Ticket price: {ticketPrice:C}\n" +
+                   $"{numberOfTickets} x {ticketPrice:C} = {totalCost:C}\n" +
+                   $"Total cost: {totalCost:C}";
         }
     }
 }
